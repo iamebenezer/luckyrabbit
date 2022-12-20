@@ -1208,12 +1208,13 @@
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-e66e906 elementor-widget elementor-widget-heading" data-id="e66e906" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default" style="color: orange;">Background</h6>
+                                                <h6 class="elementor-heading-title elementor-size-default" style="color: orange;" id="lit-textt">Background</h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-dca7151 elementor-widget elementor-widget-heading" data-id="dca7151" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">Lucky Rabbit</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default" id="lit-text">Lucky Rabbit</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default" id="lit-texti">Background</h2>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-2f2a6a2 elementor-widget elementor-widget-text-editor" data-id="2f2a6a2" data-element_type="widget" data-widget_type="text-editor.default">
@@ -1302,13 +1303,34 @@
                                                 <img decoding="async" width="766" height="568" src="/images/Asset 1.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/images/Asset 1.png 766w, /images/Asset 1.png 300w"
                                                     sizes="(max-width: 766px) 100vw, 766px" /> </div>
                                         </div>
+                                        <style>
+                                            @media screen and (max-width:750px) {
+                                                #boxx{
+                                                    position: relative;
+                                                    top: 40px;
+                                                    height: 140px;
+                                                }
+                                                #lit-textt{
+                                                    display: none;
+                                                }
+                                                #lit-texti{
+                                                    display: none;
+                                                }
+                                            }
+                                            @media screen and (min-width:750px) {
+                                                #lit-texti{
+                                                    display: none;
+                                                }
+                                               
+                                            }
+                                        </style>
                                         <div class="elementor-element elementor-element-643cf09 elementor-widget__width-initial elementor-absolute elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-icon-box"
                                             data-id="643cf09" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="icon-box.default">
-                                            <div class="elementor-widget-container floating">
+                                            <div class="elementor-widget-container floating"  id="boxx">
                                                 <link rel="stylesheet" href="https://newkit.moxcreative.com/nozzl/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
-                                                <div class="elementor-icon-box-wrapper">
-                                                    <div class="elementor-icon-box-icon">
-                                                        <span class="elementor-icon elementor-animation-" style="color: orange;">
+                                                <div class="elementor-icon-box-wrapper" >
+                                                    <div class="elementor-icon-box-icon" >
+                                                        <span class="elementor-icon elementor-animation-"  style="color: orange;">
                                                             <i class="bi bi-controller"></i>				</span>
                                                     </div>
                                                     <div class="elementor-icon-box-content">
